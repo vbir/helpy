@@ -18,7 +18,7 @@ ru:
   register: "Зарегистрироваться"
   back_to: "Назад"
   welcome_back: "Добро пожаловать снова, %{username}"
-  your_profile: "Ваши данные"
+  your_profile: "Ваш профиль"
   your_tickets: "Ваши заявки"
   locale: "Язык"
   change_your_locale: "Изменить язык"
@@ -113,6 +113,7 @@ ru:
   sign_up: Регистрация
 
   # Admin menu
+  inbox: Обращения
   discussions: Обсуждения
   content: Категории
   communities: Сообщества
