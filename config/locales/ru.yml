@@ -119,7 +119,7 @@ ru:
   communities: Сообщества
   app_store: Приложения
   search: Поиск
-  sponsors: Спонсоры
+  sponsors: "Спонсоры"
 
   # Admin main/statuses
   support_pipeline: Support Pipeline
