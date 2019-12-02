@@ -2,24 +2,24 @@
 
 ru:
   language_name: 'Русский' # The name of the translation file, in that language
-  root: &root 'Главная'
+  root: &root 'Главная страница'
   how_can_we_help: "Как мы можем помочь?"
-  browse_topics: "Выбор темы"
-  support_team: "Группа поддержки"
-  nothing_here: "Здесь еще ничего нет"
+  browse_topics: "Просмотр Базы знаний"
+  support_team: "Служба поддержки"
+  nothing_here: "Здесь еще ничего нет."
 
   # Navigation
   knowledgebase: "База знаний"
   community: "Сообщество"
-  ask_a_question: "Задайте вопрос"
-  home: "Главная"
+  ask_a_question: "Обращение в Службу поддержки"
+  home: "Главная страница"
   login: "Войти"
   logout: "Выйти"
   register: "Зарегистрироваться"
   back_to: "Назад"
   welcome_back: "Добро пожаловать снова, %{username}"
   your_profile: "Ваш профиль"
-  your_tickets: "Ваши заявки"
+  your_tickets: "Ваши обращения"
   locale: "Язык"
   change_your_locale: "Изменить язык"
 
@@ -27,70 +27,70 @@ ru:
   did_this_help: "Ваша проблема решена?"
   yes_button: 'Да'
   no_button: 'Нет'
-  # yes_helped: 'Great! Thanks for the feedback!'
-  # no_helped: "We're sorry this didn't help you.  Please contact us for more help!"
+  yes_helped: 'Отлично! Спасибо за отзыв!'
+  no_helped: "Жаль, что не могли помочь. Всё равно обращайтесь!"
 
   # Search
   search_placeholder: "Введите ключевое слово, тему или вопрос"
-  no_results: "Ничего не найдено. Пожалуйста, попробуйте еще раз!"
+  no_results: "Ничего не найдено. Пожалуйста, попробуйте поискать еще раз!"
   results_found:
     zero: "Ничего не найдено по запросу "
-    one: "один элемент найден по запросу "
-    few: "%{count} элемента найдено по запросу "
-    many: "%{count} элементов найдено по запросу "
+    one: "Один элемент найден по запросу "
+    few: "%{count} элемент(ов) найдено по запросу "
+    many: "%{count} элемент(ов) найдено по запросу "
 
   # Community
-  forum_name: "Топик"
+  forum_name: "Предмет обсуждения"
   subject: &subject "Тема"
   message: "Cообщение"
   last_activity: "Последняя активность"
   topic: "Обсуждение"
-  replies: "ответы"
-  last_post: "Последний пост"
+  replies: "Ответы"
+  last_post: "Последнее сообщение"
   started_by: "Автор %{username}"
-  reply: "Ответить на этот топик"
-  submit_reply: "Ответьте"
+  reply: "Ответить на это обращение"
+  submit_reply: "Ответить"
   posted: "Опубликовано"
   start_discussion: "Начать новое обсуждение"
-  submit_start_discussion: "Начать обсуждение"
+  submit_start_discussion: "Создать обращение"
   should_message_be_private: "Это сообщение должно быть приватным?"
-  only_support_can_respond: "Только поддержка может ответить (создается приватный тикет)"
-  responses_can_come_from_everyone: "Ответить может как поддержка, так и сообщество (рекомендуется)"
+  only_support_can_respond: "Только Служба поддержки должна ответить на это обращение"
+  responses_can_come_from_everyone: "Ответить может как Служба поддержки, так и сообщество (рекомендуется)"
   collapsed_messages:
     zero: ''
     one: "1 свернутое сообщение"
-    few: "%{count} свернутых сообщения"
     many: "%{count} свернутых сообщений"
 
   # Knowledgebase
   written_by: "Автор"
   last_edited: "Последняя редакция"
-  asked_before: "Был ваш вопрос был дан ответ раньше? Мы считаем, что они могут быть похожи"
+  tagged: "Отмечено"
+  asked_before: "Возможно, на подобный вопрос уже дан ответ. Мы считаем, что эти вопросы могут быть похожи."
 
   # Tickets
-  tickets: "Тикеты"
-  no_tickets: "Вы пока не создавали тикетов"
-  ticket_number: "№ тикета"
+  tickets: &tickets "Обращения"
+  no_tickets: "Вы пока не создавали обращений"
+  ticket_number: "№ обращения"
   assigned_to_label: "Назначено на"
   created_on: "Создано"
 
   # Get Help
   get_help_header: "Всё ещё требуется помощь?"
-  get_help_button: "Начните обсуждение с нами"
+  get_help_button: "Создайте обращение в Службу поддержки"
 
   # Profile
   my_profile: 'Мой профиль'
 
   # footer
   powered_by: "Создано с помощью Helpy. Сервис поддержки с открытым исходным кодом."
-  get_your_copy: "Получите свою копию на GitHub"
-  # version: "Version:"
+  get_your_copy: ""
+  version: "Version:"
 
   # flag
-  #flag_for_review:
-  #flag_post_for_review:
-  #flag_post_placeholder:
-  #flag:
+  #flag_for_review: "Flag for Review"
+  #flag_post_for_review: "Flag Post for Review"
+  #flag_post_placeholder: "Describe the reason for flagging this post"
+  #flag: "Flag"
 
   # devise/sessions/new
   login: "Войти"
@@ -111,40 +111,56 @@ ru:
 
   # devise/registrations/new
   sign_up: Регистрация
+  
+  # flash messages
+  #model_created: "%{object_name} was saved"
+  #model_updated: "%{object_name} was updated"
+  #model_destroyed: "%{object_name} was deleted"
 
   # Admin menu
-  inbox: Обращения
-  discussions: Обсуждения
-  content: Категории
+  inbox: Все обращения
+  discussions: Обращения
+  content: Содержание
   communities: Сообщества
   app_store: Приложения
   search: Поиск
+  internal_content: Внутренний контент
+  new_ticket: Новое обращение
+  reports: Отчеты
+  helpcenter: "Справочный центр"
+  get_help: "Помощь"
+  report_bug: "Сообщить об ошибке"
+  suggest_feature: "Предложить улучшение"
+  shortcuts: "Клавиатурные комбинации"
   sponsors: "Спонсоры"
 
   # Admin main/statuses
-  support_pipeline: Support Pipeline
-  new: Новый
-  active: рабочий
-  open: Открыт
-  mine: Мой
+  support_pipeline: Очередь обращений
+  new: Новое
+  active: Все
+  open: Открыто
+  mine: Мои
   pending: На рассмотрении
-  closed: Решён
+  closed: Решено
   spam: Спам
   trash: Корзина
-  discussion_managment: Управление обсуждениями
+  discussion_managment: Управление обращениями
   open_new_discussion: Новое обсуждение
   assigned_to: "назначено на %{agent}"
   unassigned: не назначено
-  private: приватный
-  public: публичный
+  private: приватное
+  public: публичное
   save_changes: Сохранить изменения
-  #merge: Merge
-  #merge_confirm: Are you sure you want to merge these tickets?
+  merge: Объединить
+  merge_confirm: Вы хотите объединить эти обращения?
+  customer_conversation: Беседа с клиентом
+  internal_ticket: Внутреннее обращение
+  unassign_agent: Отменить назначение агента
 
   # Discussion controls
   change_status: Изменить статус
   status: &status Статус
-  mark_closed: Отметить как решённое
+  mark_closed: Отметить как решённое и закрытое
   reopen: Открыть снова
   mark_spam: Отметить как спам
   mark_new: Отметить как новое
@@ -153,13 +169,14 @@ ru:
   selected_messages:
     zero: "Нет выбранных сообщений"
     one: "1 выбранное сообщение"
-    few: "%{count} выбранных сообщения"
+    # few: "%{count} выбранных сообщения"
     many: "%{count} выбранных сообщений"
 
   # Discussion messages
-  reopen_message: "Это сообщение было снова открыто поддержкой."
-  closed_message: "Этот тикет был закрыт поддержкой."
-  trash_message: "Этот тикет был удалён."
+  reopen_message: "Это обращение было снова открыто Службой поддержки."
+  spam_message: "Это обращение было отмечено Службой поддержки как спам."
+  closed_message: "Это обращение было закрыто Службой поддержки."
+  trash_message: "Это обращение было удалено."
   assigned_message: "Обсуждение было перенесено в %{assigned_to}."
   # assigned_group: "This ticket has been assigned to %{assigned_group}."
   # converted_to_ticket: "This discussion was converted to a private ticket."
