@@ -118,8 +118,8 @@ ru:
   #model_destroyed: "%{object_name} was deleted"
 
   # Admin menu
-  inbox: Все обращения
-  discussions: Обращения
+  inbox: Inbox
+  discussions: Обсуждения
   content: Содержание
   communities: Сообщества
   app_store: Приложения
