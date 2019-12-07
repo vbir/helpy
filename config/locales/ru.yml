@@ -590,6 +590,13 @@ ru:
       root: *root
     result:
       root: *root
+    registrations:
+      root: *root
+    admin:
+      internal_categories:
+        root: *root
+      internal_docs:
+        root: *root
   helpers:
     actions: "Действия"
     links:
@@ -613,6 +620,6 @@ ru:
           unit: ""
           thousand: тыс.
           million: млн.
-          billion: B
-          trillion: T
-          quadrillion: Q
+          billion: млрд.
+          trillion: трлн.
+          quadrillion: квдрлн.
