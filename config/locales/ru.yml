@@ -288,7 +288,7 @@ ru:
   design_description: "Control the logos and colors and other design aspects of your Helpy"
   international: "Языки"
   widget: "Встраиваемый виджет"
-  common_replies: "Шаблонные ответы"
+  # common_replies: "Шаблонные ответы"
   integrations: "Интеграция"
   theme: "Тема"
   email: "Email"
