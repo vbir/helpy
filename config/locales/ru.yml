@@ -10,7 +10,7 @@ ru:
 
   # Navigation
   knowledgebase: "База знаний"
-  community: "База знаний"
+  community: "Сообщество"
   ask_a_question: "Задайте вопрос"
   home: "Главная"
   login: "Войти"
@@ -169,7 +169,7 @@ ru:
   # Discussion messages
   reopen_message: "Это обращение было снова открыто поддержкой."
   closed_message: "Это обращение было закрыто Службой поддержки."
-  trash_message: "Это обращение было удалён."
+  trash_message: "Это обращение было удалено."
   assigned_message: "Обращение было перенесено в %{assigned_to}."
   # assigned_group: "This ticket has been assigned to %{assigned_group}."
   # converted_to_ticket: "This discussion was converted to a private ticket."
