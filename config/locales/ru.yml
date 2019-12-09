@@ -160,6 +160,7 @@ ru:
   mark_new: Отметить как новое
   assign_agent: &assign_agent Ответственный
   tag_with: &tag_with Ключевые слова
+  other_tickets_in: Другие обращения с меткой 
   selected_messages:
     zero: "Нет выбранных сообщений"
     one: "1 выбранное сообщение"
@@ -167,7 +168,7 @@ ru:
     many: "%{count} выбранных сообщений"
 
   # Discussion messages
-  reopen_message: "Это обращение было снова открыто поддержкой."
+  reopen_message: "Это обращение было снова открыто Службой поддержкой."
   closed_message: "Это обращение было закрыто Службой поддержки."
   trash_message: "Это обращение было удалено."
   assigned_message: "Обращение было перенесено в %{assigned_to}."
