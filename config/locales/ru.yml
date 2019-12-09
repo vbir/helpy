@@ -10,7 +10,7 @@ ru:
 
   # Navigation
   knowledgebase: "База знаний"
-  community: "Сообщество"
+  community: "База знаний"
   ask_a_question: "Задайте вопрос"
   home: "Главная"
   login: "Войти"
@@ -83,7 +83,7 @@ ru:
 
   # footer
   powered_by: "Создано с помощью Helpy. Сервис поддержки с открытым исходным кодом."
-  get_your_copy: "Получите свою копию на GitHub"
+  get_your_copy: ""
   # version: "Version:"
 
   # flag
@@ -118,6 +118,8 @@ ru:
   communities: Сообщества
   app_store: Приложения
   search: Поиск
+  internal_content: Внутренняя документация
+  new_ticket: Новое обращение
 
   # Admin main/statuses
   support_pipeline: Support Pipeline
@@ -146,19 +148,19 @@ ru:
   reopen: Открыть снова
   mark_spam: Отметить как спам
   mark_new: Отметить как новое
-  assign_agent: &assign_agent Назначить агента
+  assign_agent: &assign_agent Назначить ответственного
   # tag_with: &tag_with Tag Ticket
   selected_messages:
     zero: "Нет выбранных сообщений"
     one: "1 выбранное сообщение"
-    few: "%{count} выбранных сообщения"
+    few: "%{count} выбранных сообщений"
     many: "%{count} выбранных сообщений"
 
   # Discussion messages
-  reopen_message: "Это сообщение было снова открыто поддержкой."
-  closed_message: "Этот тикет был закрыт поддержкой."
-  trash_message: "Этот тикет был удалён."
-  assigned_message: "Обсуждение было перенесено в %{assigned_to}."
+  reopen_message: "Это обращение было снова открыто поддержкой."
+  closed_message: "Это обращение было закрыто Службой поддержки."
+  trash_message: "Это обращение было удалён."
+  assigned_message: "Обращение было перенесено в %{assigned_to}."
   # assigned_group: "This ticket has been assigned to %{assigned_group}."
   # converted_to_ticket: "This discussion was converted to a private ticket."
   # converted_to_topic: "This ticket was converted to an open discussion and moved to %{forum_name}."
@@ -265,13 +267,13 @@ ru:
   view_online: "Посмотреть это онлайн:"
 
   # settings
-  # settings: "Settings"
-  # general: "General"
-  # design: "Design"
-  # international: "International"
-  # widget: "Embeddable Widget"
-  # common_replies: "Common Replies"
-  # integrations: "Integrations"
+  settings: "Настройки"
+  general: "Основные"
+  design: "Оформление"
+  international: "Языки"
+  widget: "Встраиваемый виджет"
+  common_replies: "Шаблонные ответы"
+  integrations: "Интеграция"
 
   # Keyboard Shortcuts
   # shortcut_then: "then"
@@ -397,6 +399,6 @@ ru:
           unit: ""
           thousand: тыс.
           million: млн.
-          billion: B
-          trillion: T
-          quadrillion: Q
+          billion: млрд.
+          trillion: трлн.
+          quadrillion: квдрлн.
