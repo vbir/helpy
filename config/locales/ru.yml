@@ -120,23 +120,30 @@ ru:
   search: Поиск
   internal_content: Внутренняя документация
   new_ticket: Новое обращение
+  reports: Отчеты
+  helpcenter: "Справочный центр"
+  get_help: "Помощь"
+  report_bug: "Сообщить об ошибке"
+  suggest_feature: "Suggest Feature"
+  shortcuts: "Клавиатурные сокращения"
+  sponsors: "Спонсоры"
 
   # Admin main/statuses
   support_pipeline: Support Pipeline
-  new: Новый
-  active: рабочий
-  open: Открыт
+  new: Новое
+  active: В работе
+  open: Открыто
   mine: Мой
   pending: На рассмотрении
-  closed: Решён
+  closed: Решено
   spam: Спам
   trash: Корзина
   discussion_managment: Управление обсуждениями
   open_new_discussion: Новое обсуждение
   assigned_to: "назначено на %{agent}"
   unassigned: не назначено
-  private: приватный
-  public: публичный
+  private: Приватное
+  public: Публичное
   save_changes: Сохранить изменения
   #merge: Merge
   #merge_confirm: Are you sure you want to merge these tickets?
@@ -168,8 +175,8 @@ ru:
   # notes_hidden: "There are %{hidden_notes} internal notes for this ticket. You can view them by clicking anywhere in this note!"
 
   # User Admin
-  # users: Users
-  # account: Account
+  users: &users Пользователи
+  account: Профиль
   contact_info: Контакт
   social_info: Социальные сети
   edit_user: Редактировать пользователя
@@ -209,7 +216,7 @@ ru:
   replied: "%{user_name} ответил..."
   posted_note: "%{user_name} опубликовал внутреннюю заметку..."
   type_reply: Введите ответ или выберите из общего сообщения ниже
-  select_common: Выберите Общий Ответ
+  select_common: Выберите шаблонный ответ
   reply: Ответьте
   internal_note: Внутренняя заметка
   # mark_as_resolved: Mark as resolved
