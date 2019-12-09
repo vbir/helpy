@@ -142,8 +142,8 @@ ru:
   open_new_discussion: Новое обращение
   assigned_to: "ответственный: %{agent}"
   unassigned: нет ответственного
-  private: Приватное
-  public: Публичное
+  private: Для сотрудников
+  public: Для всех
   save_changes: Сохранить изменения
   #merge: Merge
   #merge_confirm: Are you sure you want to merge these tickets?
@@ -231,14 +231,14 @@ ru:
 
   # Content
   new_category: Новый раздел
-  new_content: Новый контент
-  front_page_categories: Разделы на главной страницу
+  new_content: Новая статья
+  front_page_categories: Разделы на главной странице
   other_categories: Другие разделы
   edit: Редактировать
   edit_category: Редактировать раздел
   select_category: Выбрать раздел
   delete: Удалить
-  view_and_edit: "Просмотр и редактирование контента"
+  view_and_edit: "Просмотр и редактирование статьи"
   delete_confirm: "Вы уверены, что хотите удалить это?"
   select_icon_helptext: "Выберите иконку для этого раздела (необязательно)"
   translate: "Переведите на другой язык"
@@ -249,7 +249,7 @@ ru:
   draft_content: "Черновик"
   published_content: "Опубликовано"
   additional_settings: "Дополнительные настройки"
-  content_status: "Статус контента"
+  content_status: "Статус статьи"
   # convert_content: 'Turn post into content'
   # upload_image: 'Upload Image'
   # new_discussion: 'Create new discussion from this'
@@ -295,6 +295,73 @@ ru:
   customers: "Клиенты"
   team: "Служба поддержки"
   team_group: "Группы"
+  
+  # General
+  site_name: Название сайта
+  site_url: URL сайта
+  parent_site: Родительский сайт
+  parent_company: Родительская компания
+  site_tagline: Слоган сайта
+  enable_forums: Разрешить форумы
+  enable_knowledgebase: Разрешить Базу знаний
+  enable_tickets: Разрешить внутренние обращения
+  enable_teams: Разрешить Команды в Службе поддержки
+  enable_welcome_email: Отправлять приветственное письмо новым пользователям
+
+  # Design
+  header_logo: Логотив в заголовке
+  search_background: Цвет фона поискового поля
+  top_bar: Цвет акцента в заголовке
+  link_color: Цвет ссылки
+  form_background: Цвет фона формы
+  still_need_help:
+
+  # Locales
+  supported_locales: Поддерживаемые языки
+  default_locale: Язык по умолчанию
+  select_default_locale: "Выберите язык по умолчанию..."
+
+  # Widget
+  show_widget: Показывать виджет на сайте техподдержки
+  widget_background: Цвет фона виджета
+  button_color: Цвет кнопки виджета
+  button_text_color: Цвет текста виджета
+
+  # Integrations
+  incoming_webhook: Incoming Webhook
+  incoming_webhook_description: Create tickets from existing webforms by POSTing to a JSON webhook URL. Your secret URL is
+  enable_webhook_url: Enable Incoming Webhooks
+  google_analytics: Google Analytics
+  google_analytics_description: Send Helpdesk usage statistics into Google Analytics for reporting and visualization.
+  enable_google_analytics: Enable Google Analytics
+  google_analytics_id: Google Analytics ID
+  recaptcha_integration: Recaptcha
+  recaptcha_description: Recaptcha helps protect your self service helpdesk from spam.
+  enable_recaptcha: Enable Recaptcha
+  recaptcha_site_key: Recaptcha Site Key
+  recaptcha_api_key: Recaptcha API Key
+  cloudinary_integration: Cloudinary
+  cloudinary_description: Cloudinary offers image hosting and transformation services.
+  enable_cloudinary: Enable Cloudinary
+  cloudinary_cloud_name: Cloudinary Cloud Name
+  cloudinary_api_key: Cloudinary API Key
+  cloudinary_api_secret: Cloudinary API Secret
+
+  # Email
+  mail_service: Inbound Mail Service Provider
+  send_email: Enable Outbound (SMTP) Email
+  boolean_no: No
+  boolean_yes: Yes
+  admin_email: Admin Email
+  from_email: From Email
+  smtp_mail_username: SMTP Username
+  smtp_mail_password: SMTP Password
+  mail_smtp: SMTP Server
+  mail_port: SMTP Port
+  mail_domain: SMTP Domain
+  spam_assassin_reject: SpamAssassin Threshold for rejecting incoming email tickets 
+  spam_assassin_filter: SpamAssassin Threshold for marking incoming tickets spam
+  email_blacklist: Automatically mark tickets from these addresses as spam (separate multiple with commas)
   
   # Keyboard Shortcuts
   # shortcut_then: "then"
@@ -351,7 +418,8 @@ ru:
       post:
         kind: *kind
       category:
-        name: Имя
+        name: Название
+        parent_id: Вышестоящий раздел
         icon: Иконка
         keywords: Ключевые слова
         title_tag: Название тегов
@@ -360,17 +428,18 @@ ru:
         active: Активный
         visibility: Видимость
         visibility_label:
-          all: Все
-          public: Открытый
-          internal: Закрытый
+          all: Для всех
+          public: Для клиентов
+          internal: Для сотрудников
       doc:
         title: Название
         meta_description: Мета Описание
         title_tag: Название тегов
         keywords: Ключевые слова
-        category_id: Категория
+        category_id: Раздел
         active: Статус
-        front_page: Популярное на первой странице?
+        front_page: Закрепить на первой странице?
+        allow_comments: Разрешить комментарии? 
       forum:
         name: Имя
         description: Описание
