@@ -124,7 +124,7 @@ ru:
   helpcenter: "Справочный центр"
   get_help: "Помощь"
   report_bug: "Сообщить об ошибке"
-  suggest_feature: "Suggest Feature"
+  suggest_feature: "Предложить улучшение"
   shortcuts: "Клавиатурные сокращения"
   sponsors: "Спонсоры"
 
@@ -133,7 +133,7 @@ ru:
   new: Новое
   active: В работе
   open: Открыто
-  mine: Мой
+  mine: Мои
   pending: На рассмотрении
   closed: Решено
   spam: Спам
@@ -158,7 +158,7 @@ ru:
   reopen: Открыть снова
   mark_spam: Отметить как спам
   mark_new: Отметить как новое
-  assign_agent: &assign_agent Назначить ответственного
+  assign_agent: &assign_agent Ответственн
   # tag_with: &tag_with Tag Ticket
   selected_messages:
     zero: "Нет выбранных сообщений"
@@ -191,7 +191,7 @@ ru:
   # delete_user_warning: "Are you sure you want to delete %{user_name}? This will permanently remove the user and all of their tickets, posts, replies and forum topics."
 
   # Priorities
-  # select_priority: &priority Select Priority
+  select_priority: &priority Приоритет
   # vip_priority: VIP
   # very_high_priority: Very High
   # high_priority: High
@@ -258,12 +258,12 @@ ru:
   # change_owner_note: 'The creator of this topic was changed from %{old} to %{new}'
 
   # Communities
-  new_community: Создать сообщество
-  create_new_community: Создать сообщество
-  # layout_select: Select Format
-  # layout_table: Table
-  # layout_grid: Grid
-  # layout_qna: Q&A
+  new_community: Новый раздел форума
+  create_new_community: Создать раздел форума
+  layout_select: Выберите формат
+  layout_table: Таблица
+  layout_grid: Сетка
+  layout_qna: Вопросы и ответы
 
   # Mail messages
   new_user_subject: "Welcome to %{site_name}"
@@ -320,17 +320,18 @@ ru:
   # mark_resolved: "Mark as resolved"
   # reopen_ticket: "Reopen ticket"
 
-  kind_type: &kind Жанр
+  kind_type: &kind Тип
 
   activerecord:
     attributes:
       user:
-        email: почта
-        password: пароль
+        email: Почта
+        password: Пароль
         name: Имя
         company: Компания
-        work_phone: номер рабочего телефона
-        cell_phone: номер мобильного телефона
+        work_phone: Номер рабочего телефона
+        home_phone: Номер телефона
+        cell_phone: Номер мобильного телефона
         city: Город
         state: Область
         # signature: Signature
@@ -342,7 +343,7 @@ ru:
         # priority: *priority
         current_status: *status
         assigned_user_id: *assign_agent
-        # tag_list: Tag List
+        tag_list: Ключевые слова
       post:
         kind: *kind
       category:
@@ -364,10 +365,10 @@ ru:
       forum:
         name: Имя
         description: Описание
-        private: Приватный
+        private: Закрытый
         # layout: Layout
-        # allow_topic_voting: Allow topic voting?
-        # allow_post_voting: Allow post voting?
+        allow_topic_voting: Разрешить голосование за раздел?
+        allow_post_voting: Разрешить голосование за статьи?
 
     # helpers:
       submit:
