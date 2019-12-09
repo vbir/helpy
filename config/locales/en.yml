@@ -177,6 +177,7 @@ en:
   mark_as: "Mark"
   move_to: "Move"
   users_history: "%{role}'s full history"
+  other_tickets_in: Other tickets in 
 
   # Discussion messages
   new_message: "This ticket has been marked new by the support staff"
