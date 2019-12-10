@@ -459,7 +459,6 @@ ru:
         state: Область
         zip: Почтовый индекс
         signature: Подпись
-        title:
         time_zone: Часовой пояс
         street: Улица
         notes: Заметки
