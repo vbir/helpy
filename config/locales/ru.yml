@@ -448,7 +448,7 @@ ru:
   activerecord:
     attributes:
       user:
-        email: Почта
+        email: Email
         password: Пароль
         name: Имя
         company: Компания
