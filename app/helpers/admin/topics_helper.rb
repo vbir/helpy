@@ -62,7 +62,7 @@ module Admin::TopicsHelper
 
   def channels_collection
     [
-      [t('activerecord.attributes.user.email'), 'email'],
+      [t(:email), 'email'],
       [t('activerecord.attributes.user.home_phone'), 'phone'],
       [t(:channel_in_person, default: 'In Person'), 'person']
     ]
