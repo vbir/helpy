@@ -202,6 +202,7 @@ ru:
   low_priority: Low
   
   # Roles
+  user_roles: Роли пользователей
   select_role: Выберите роль
   admin_role: Administrator
   agent_role: Agent
