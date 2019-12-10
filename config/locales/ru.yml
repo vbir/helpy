@@ -27,8 +27,8 @@ ru:
   did_this_help: "Ваша проблема решена?"
   yes_button: 'Да'
   no_button: 'Нет'
-  # yes_helped: 'Great! Thanks for the feedback!'
-  # no_helped: "We're sorry this didn't help you.  Please contact us for more help!"
+  yes_helped: 'Отлично! Благодарим за отзыв!'
+  no_helped: "Сожалеем, что не смогли помочь. Пожалуйста, обращайтесь к нам ещё!"
 
   # Search
   search_placeholder: "Введите ключевое слово, тему или вопрос"
@@ -65,7 +65,7 @@ ru:
   # Knowledgebase
   written_by: "Автор"
   last_edited: "Последняя редакция"
-  asked_before: "Возможно, на ваш вопрос был дан ответ раньше. Мы считаем, что вопросы могут быть похожи."
+  asked_before: "Возможно, на ваш вопрос был уже дан ответ раньше. Мы считаем, что вопросы могут быть похожи."
 
   # Tickets
   tickets: "Обращения"
@@ -113,7 +113,8 @@ ru:
   sign_up: Регистрация
 
   # Admin menu
-  discussions: Обращения
+  inbox: Обращения
+  discussions: Обсуждения
   content: Разделы
   communities: Форумы
   app_store: Приложения
@@ -140,6 +141,7 @@ ru:
   trash: Корзина
   discussion_managment: Управление обращениями
   open_new_discussion: Новое обращение
+  submit_start_note: Создать заметку
   assigned_to: "ответственный: %{agent}"
   unassigned: нет ответственного
   private: Для сотрудников
