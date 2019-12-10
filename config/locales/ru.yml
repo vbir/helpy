@@ -84,7 +84,7 @@ ru:
   # footer
   powered_by: "Создано с помощью Helpy."
   get_your_copy: ""
-  # version: "Версия:"
+  version: "Версия:"
 
   # flag
   #flag_for_review:
@@ -389,8 +389,8 @@ ru:
   insights_blurb_one:
     one: "<strong>%{period}:</strong> пользователи создали 1 новое обращение"
     other: "<strong>%{period}:</strong> пользователи создали <strong>%{count} новых обращений</strong>"
-  insights_blurb_two: "из которых ваша команда ответила на <strong>%{number_replied} (%{percentage_replied})</strong>"
-  insights_blurb_three_html: "со средним временем ответа <strong>%{response_time}</strong>"
+  insights_blurb_two: ", из которых ваша команда ответила на <strong>%{number_replied} (%{percentage_replied})</strong>"
+  insights_blurb_three_html: "со средним временем ответа <strong>%{response_time}</strong>."
   no_discussions: "<strong>%{period}:</strong> новых обращений не было."
   assigned_topics: "назначенные обращения"
   responded: "Отвечено"
