@@ -115,8 +115,8 @@ ru:
   # Admin menu
   inbox: Обращения
   discussions: Обсуждения
-  content: Разделы
-  communities: Форумы
+  content: База знаний
+  communities: Форум
   app_store: Приложения
   search: Поиск
   internal_content: Внутренняя документация
@@ -274,7 +274,7 @@ ru:
   
   # Internal Content
   no_internal_content_title: "Внутренняя документация еще не написана!"
-  no_internal_content_text: "Чтобы начать создавать внутреннюю документацию, в меню Справочный центр > Разделы добавьте раздел с типом Закрытый и создайте статьи в этом разделе!"
+  no_internal_content_text: "Чтобы начать создавать внутреннюю документацию, в меню Справочный центр > База знаний добавьте раздел с типом Закрытый и создайте статьи в этом разделе!"
 
   # Communities
   new_community: Новый раздел форума
@@ -317,7 +317,7 @@ ru:
   parent_site: Родительский сайт
   parent_company: Родительская компания
   site_tagline: Слоган сайта
-  enable_forums: Разрешить форумы
+  enable_forums: Разрешить форум
   enable_knowledgebase: Разрешить Базу знаний
   enable_tickets: Разрешить внутренние обращения
   enable_teams: Разрешить Команды в Службе поддержки
