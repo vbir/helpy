@@ -40,22 +40,22 @@ ru:
     many: "%{count} элементов найдено по запросу "
 
   # Community
-  forum_name: "Топик"
+  forum_name: "Тема"
   subject: &subject "Тема"
   message: "Cообщение"
-  last_activity: "Последняя активность"
+  last_activity: "Последний ответ"
   topic: "Обсуждение"
-  replies: "ответы"
+  replies: "Ответы"
   last_post: "Последний пост"
-  started_by: "Автор %{username}"
-  reply: "Ответить на этот топик"
+  started_by: "%{username}"
+  reply: "Ответить в этой теме"
   submit_reply: "Ответьте"
   posted: "Опубликовано"
   start_discussion: "Начать новое обсуждение"
   submit_start_discussion: "Начать обсуждение"
   should_message_be_private: "Это сообщение должно быть приватным?"
-  only_support_can_respond: "Только поддержка может ответить (создается приватный тикет)"
-  responses_can_come_from_everyone: "Ответить может как поддержка, так и сообщество (рекомендуется)"
+  only_support_can_respond: "Только Служба поддержка может ответить"
+  responses_can_come_from_everyone: "Ответить может и Служба поддержки, и сообщество"
   collapsed_messages:
     zero: ''
     one: "1 свернутое сообщение"
@@ -65,7 +65,7 @@ ru:
   # Knowledgebase
   written_by: "Автор"
   last_edited: "Последняя редакция"
-  asked_before: "Был ваш вопрос был дан ответ раньше? Мы считаем, что они могут быть похожи"
+  asked_before: "Возможно, на ваш вопрос был дан ответ раньше. Мы считаем, что вопросы могут быть похожи."
 
   # Tickets
   tickets: "Обращения"
@@ -76,15 +76,15 @@ ru:
 
   # Get Help
   get_help_header: "Всё ещё требуется помощь?"
-  get_help_button: "Начните обсуждение с нами"
+  get_help_button: "Новое обращение в Службу поддержки"
 
   # Profile
   my_profile: 'Мой профиль'
 
   # footer
-  powered_by: "Создано с помощью Helpy. Сервис поддержки с открытым исходным кодом."
+  powered_by: "Создано с помощью Helpy."
   get_your_copy: ""
-  # version: "Version:"
+  # version: "Версия:"
 
   # flag
   #flag_for_review:
@@ -184,20 +184,28 @@ ru:
   contact_info: Контакт
   social_info: Социальные сети
   edit_user: Редактировать пользователя
-#  delete_user: Delete User
+  delete_user: Удалить пользователя
   work_phone: номер рабочего телефона
   cell_phone: номер мобильного телефона
-  # scrub_user: "Anonymize User"
-  # anonymize_user_warning: "Are you sure you want to anonymize %{user_name}? This will permanently anonymize the user's personal data but retain all of their tickets and public posts."
-  # delete_user_warning: "Are you sure you want to delete %{user_name}? This will permanently remove the user and all of their tickets, posts, replies and forum topics."
+  scrub_user: "Анонимизировать пользователя"
+  anonymize_user_warning: "Вы уверены, что хотите анонимизировать пользователя %{user_name}? Персональные данные пользователя будут удалены, но все его обращения и публикации сохранятся."
+  delete_user_warning: "Вы уверены, что хотите удалить пользователя %{user_name}? Все данные пользователя, включая обращения, публикации и ответы будут удалены."
 
   # Priorities
   select_priority: &priority Приоритет
-  # vip_priority: VIP
-  # very_high_priority: Very High
-  # high_priority: High
-  # normal_priority: Normal
-  # low_priority: Low
+  vip_priority: VIP
+  very_high_priority: Very High
+  high_priority: High
+  normal_priority: Normal
+  low_priority: Low
+  
+  # Roles
+  select_role: Выберите роль
+  admin_role: Administrator
+  agent_role: Agent
+  editor_role: Editor
+  user_role: Customer
+  add_more_agents: "Добавить пользователей"
 
   # User search results
   users_found:
@@ -386,7 +394,7 @@ ru:
   # expand_the_ticket_thread: "Expand ticket thread"
   # reply_to_the_ticket: "Reply to the ticket"
   # add_an_internal_note: "Add an internal note"
-  # change_ticket_status: "Change ticket status"
+  # change_ticket_status: "ticket status"
   # associate_with_a_group: "Associate with a group"
   # ticket_status: "Ticket status"
   # mark_resolved: "Mark as resolved"
@@ -406,7 +414,12 @@ ru:
         cell_phone: Номер мобильного телефона
         city: Город
         state: Область
-        # signature: Signature
+        zip: Почтовый индекс
+        signature: Подпись
+        title:
+        time_zone: Часовой пояс
+        street: Улица
+        notes: Заметки
       topic:
         kind: *kind
         name: *subject
