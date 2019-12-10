@@ -16,7 +16,7 @@
 <% end %>
   <div data-hook="login-form">
   <%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-    <%= f.email_field :email, placeholder: I18n.t("activerecord.attributes.user.email"), skip_label: true %>
+    <%= f.email_field :email, placeholder: t(:email), skip_label: true %>
     <%= f.password_field :password, placeholder: I18n.t("activerecord.attributes.user.password"), autocomplete: "off", skip_label: true %>
     <% if devise_mapping.rememberable? -%>
         <%= f.check_box :remember_me %>
