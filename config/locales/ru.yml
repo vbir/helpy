@@ -215,23 +215,23 @@ ru:
     many: "%{count} пользователей найдено по запросу %{query}"
 
   # Invite users
-  # invite_users: "Invite New Users"
-  # invite_emails: "Email Addresses"
-  # invite_emails_placeholder: "Type one or more email addresses to send an invitation to"
-  # invite_message: "Message"
-  # invite_message_placeholder: "An optional message that will be sent to the new users"
-  # invite_role: "Role for Invited Users"
-  # send_invite: "Send Invite"
+  invite_users: "Пригласить новых пользователей"
+  invite_emails: "Адреса email"
+  invite_emails_placeholder: "Введите один или несколько адресов email для рассылки приглашений"
+  invite_message: "Сообщение"
+  invite_message_placeholder: "Необязательное сообщение, которое увидят новые пользователи"
+  invite_role: "Роль для приглашенных пользователей"
+  send_invite: "Отправить приглашения"
 
   # Discussion View
-  asked_a_question: "%{user_name} задал вопрос..."
-  replied: "%{user_name} ответил..."
-  posted_note: "%{user_name} опубликовал внутреннюю заметку..."
+  asked_a_question: "%{user_name} задал(а) вопрос..."
+  replied: "%{user_name} ответил(а)..."
+  posted_note: "%{user_name} опубликовал(а) внутреннюю заметку..."
   type_reply: Введите ответ или выберите из общего сообщения ниже
   select_common: Выберите шаблонный ответ
-  reply: Ответьте
+  reply: Ответить
   internal_note: Внутренняя заметка
-  # mark_as_resolved: Mark as resolved
+  mark_as_resolved: Отменить как решённое
   upvote:
     zero: "Голосовать | %{count}"
     one: "Голосовать | %{count}"
@@ -378,25 +378,25 @@ ru:
   filter_by_date: "Фильтр по дате"
   today: "Сегодня"
   yesterday: "Вчера"
-  this_week: "Эта неделя"
+  this_week: "Текущая неделя"
   last_week: "Прошлая неделя"
-  this_month: "Этот месяц"
+  this_month: "текущий месяц"
   last_month: "Прошлый месяц"
   date_range: "Период"
   insight_start_range: "Начальная дата:"
   insight_end_range: "Конечная дата:"
   insight_filter: "Фильтр"
   insights_blurb_one:
-    one: "<strong>%{period}</strong> пользователи создали 1 новое обращение"
-    other: "<strong>%{period}</strong> пользователи создали <strong>%{count} новых обращений</strong>"
+    one: "<strong>%{period}:</strong> пользователи создали 1 новое обращение"
+    other: "<strong>%{period}:</strong> пользователи создали <strong>%{count} новых обращений</strong>"
   insights_blurb_two: "из которых ваша команда ответила на <strong>%{number_replied} (%{percentage_replied})</strong>"
-  insights_blurb_three_html_html: "со средним временем ответа <strong>%{response_time}</strong>"
-  no_discussions: "Новых обращений не было <strong>%{period}</strong>"
+  insights_blurb_three_html: "со средним временем ответа <strong>%{response_time}</strong>"
+  no_discussions: "<strong>%{period}:</strong> новых обращений не было."
   assigned_topics: "назначенные обращения"
   responded: "Отвечено"
   closed: "Закрыто"
   replies: "Ответы"
-  median_time: "Среднее время ответа"
+  median_time: "Медианное время ответа"
 
   # Reports
   ticketing_reports: Отчеты по обращениям
@@ -428,7 +428,7 @@ ru:
   # select_next_ticket: "Select next ticket"
   # view_selected_ticket: "View selected ticket"
   # jump_to_a_specific_ticket_number: "Jump to a specific ticket number"
-  # ticket_actions: "Ticket actions"
+  ticket_actions: "Действия с обращениями"
   # assign_the_ticket: "Assign ticket"
   # move_the_ticket: "Move ticket"
   # expand_the_ticket_thread: "Expand ticket thread"
