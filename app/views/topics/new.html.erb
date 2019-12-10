@@ -16,7 +16,7 @@
 
       <% unless user_signed_in? %>
         <%= f.simple_fields_for @user, validate: true do |u| %>
-          <%= u.input :email, placeholder: I18n.t(:email), autofocus: true, class: 'topic-placeholder' %>
+          <%= u.input :email, placeholder: t(:email), autofocus: true, class: 'topic-placeholder' %>
           <%= u.input :name, placeholder: I18n.t('activerecord.attributes.user.name'), class: 'topic-placeholder' %>
         <% end %>
       <% end %>
