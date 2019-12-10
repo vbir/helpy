@@ -372,6 +372,46 @@ ru:
   spam_assassin_filter: SpamAssassin Threshold for marking incoming tickets spam
   email_blacklist: Automatically mark tickets from these addresses as spam (separate multiple with commas)
   
+  # Insights
+  activity_report: "Отчет об активности"
+  team_insights: "Отчеты для команды"
+  filter_by_date: "Фильтр по дате"
+  today: "Сегодня"
+  yesterday: "Вчера"
+  this_week: "Эта неделя"
+  last_week: "Прошлая неделя"
+  this_month: "Этот месяц"
+  last_month: "Прошлый месяц"
+  date_range: "Период"
+  insight_start_range: "Начальная дата:"
+  insight_end_range: "Конечная дата:"
+  insight_filter: "Фильтр"
+  insights_blurb_one:
+    one: "<strong>%{period}</strong> пользователи создали 1 новое обращение"
+    other: "<strong>%{period}</strong> пользователи создали <strong>%{count} новых обращений</strong>"
+  insights_blurb_two: "из которых ваша команда ответила на <strong>%{number_replied} (%{percentage_replied})</strong>"
+  insights_blurb_three_html_html: "со средним временем ответа <strong>%{response_time}</strong>"
+  no_discussions: "Новых обращений не было <strong>%{period}</strong>"
+  assigned_topics: "назначенные обращения"
+  responded: "Отвечено"
+  closed: "Закрыто"
+  replies: "Ответы"
+  median_time: "Среднее время ответа"
+
+  # Reports
+  ticketing_reports: Отчеты по обращениям
+  group_report: "Отчет по группе"
+  team_reports: "Отчеты для команды"
+  percent_resolved: Процент решённых
+  average_resolution_time: Среднее время решения
+  new_tickets: Новые обращения
+  new_tickets_explain: Количество новых обращений за этот период.
+  tickets_per_day: Обращений за день
+  tickets_per_day_explain: Среднее количество обращений за день.
+  replies_explain: Количество ответов сотрудников за этот период.
+  actions_explain: Общее число действий (ответов или внутренних заметок) за это период. Хороший показатель загруженности Службы поддержки.
+  closed_explain: Количество закрытых обращений за этот период. Должно стремиться к количеству новых обращений за предыдущие периоды.
+  
   # Keyboard Shortcuts
   # shortcut_then: "then"
   # listing_views: "Listing views"
