@@ -22,6 +22,7 @@ ru:
   your_tickets: "Ваши заявки"
   locale: "Язык"
   change_your_locale: "Изменить язык"
+  select_locale: "Изменить язык"
 
   # Voting widget
   did_this_help: "Ваша проблема решена?"
