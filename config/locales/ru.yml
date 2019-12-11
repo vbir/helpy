@@ -299,6 +299,10 @@ ru:
   # settings
   settings: "Настройки"
   general: "Основные"
+  general_settings: Основные настройки
+  ticketing_settings: Настройки системы учета обращений
+  helpcenter_settings: Настройки Базы знаний
+  data_settings: Данные
   general_description: "Manage general system settings like your Helpy name, what company to link back to."
   design: "Оформление"
   design_description: "Control the logos and colors and other design aspects of your Helpy"
