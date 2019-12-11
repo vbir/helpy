@@ -32,7 +32,7 @@
 						    </ul> -->
 								<% end %>
 								<% if current_user.is_admin? %>
-								<div class="settings-nav-header"><span class="tiny-header"><%= t('general_settings', default: "General Settings" %></span></div>
+								<div class="settings-nav-header"><span class="tiny-header"><%= t('general_settings', default: "General Settings") %></span></div>
 
 								<ul class="nav-items settings-menu list-unstyled" data-hook="admin_general_settings_menu" style="margin-top:10px;">
 						      <%= settings_menu_item('glyphicon glyphicon-cog', 'general', admin_general_settings_path) %>
@@ -40,7 +40,7 @@
 						      <%= settings_menu_item('fas fa-cogs', 'integrations', admin_integration_settings_path) %>
 						    </ul>
 
-								<div class="settings-nav-header"><span class="tiny-header">T<%= t('ticketing_settings', default: "Ticketing Settings" %></span></div>
+								<div class="settings-nav-header"><span class="tiny-header"><%= t('ticketing_settings', default: "Ticketing Settings") %></span></div>
 								<ul class="nav-items settings-menu list-unstyled" data-hook="admin_settings_menu" style="margin-top:10px;">
 									<%= settings_menu_item('glyphicon glyphicon-envelope', 'email', admin_email_settings_path) %>
 									<%= settings_menu_item('glyphicon glyphicon-tags', 'groups', admin_groups_path) %>
@@ -48,13 +48,13 @@
                   <%= settings_menu_item('glyphicon glyphicon-share-alt', 'common replies', admin_category_path(1)) %>
 						    </ul>
 
-								<div class="settings-nav-header"><span class="tiny-header"><%= t('helpcenter_settings', default: "HelpCenter Settings" %></span></div>
+								<div class="settings-nav-header"><span class="tiny-header"><%= t('helpcenter_settings', default: "HelpCenter Settings") %></span></div>
 						    <ul class="nav-items settings-menu list-unstyled" data-hook="admin_helpcenter_settings_menu" style="margin-top:10px;"``>
 									<%= settings_menu_item('glyphicon glyphicon-pencil', 'design', admin_design_settings_path) %>
 									<%= settings_menu_item('fas fa-clone', 'theme', admin_theme_settings_path) %>
 									<%= settings_menu_item('glyphicon glyphicon-modal-window', 'widget', admin_widget_settings_path) %>
 						    </ul>
-								<div class="settings-nav-header"><span class="tiny-header"><%= t('data_settings', default: "Data" %></span></div>
+								<div class="settings-nav-header"><span class="tiny-header"><%= t('data_settings', default: "Data") %></span></div>
 								<ul class="nav-items settings-menu list-unstyled" data-hook="admin_data_menu" style="margin-top:10px;">
 									<%= settings_menu_item('glyphicon glyphicon-cloud', t('api_keys', default: "API Keys"), admin_api_keys_path) %>
 									<%= settings_menu_item('fas fa-download',"export", admin_backups_path) %>
