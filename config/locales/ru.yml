@@ -315,8 +315,12 @@ ru:
   customers: "Клиенты"
   team: "Служба поддержки"
   team_group: "Группы"
-  internal_categories: Эприватные и внутренние разделы"
-  
+  internal_categories: Приватные и внутренние разделы
+  admin_branding: Брэндинг панели управления
+  self_service_site: Настройки сайта
+  helpy_functions: Функции системы
+  save_settings: Сохранить настройки
+    
   # General
   site_name: Название сайта
   site_url: URL сайта
