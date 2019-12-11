@@ -150,6 +150,7 @@ ru:
   private: Для сотрудников
   public: Для всех
   save_changes: Сохранить изменения
+  settings_changes_saved: Изменения успешно сохранены.
   #merge: Merge
   #merge_confirm: Are you sure you want to merge these tickets?
   customer_conversation: Обращение клиента
@@ -213,6 +214,19 @@ ru:
   editor_role: Editor
   user_role: Customer
   add_more_agents: "Добавить пользователей"
+  
+  # Groups
+  groups: "Группы"
+  add_new_group: "Новая группа"
+  group: "Группа"
+  tag_group: ""
+  tag_name: "Название группы"
+  description: "Описание"
+  color: "Цвет"
+  show_on_helpcenter: "Показывать в Справочном центре"
+  show_on_admin: "Показывать в панели управления"
+  email_address: "Адрес Email"
+  from_name: "От"
 
   # User search results
   users_found:
@@ -375,20 +389,20 @@ ru:
   cloudinary_api_secret: Cloudinary API Secret
 
   # Email
-  mail_service: Inbound Mail Service Provider
-  send_email: Enable Outbound (SMTP) Email
+  mail_service: Провайдер входящих сообщений
+  send_email: Включить исходящую (SMTP) почту
   boolean_no: No
   boolean_yes: Yes
-  admin_email: Admin Email
-  from_email: From Email
+  admin_email: Email администратора
+  from_email: От
   smtp_mail_username: SMTP Username
   smtp_mail_password: SMTP Password
   mail_smtp: SMTP Server
   mail_port: SMTP Port
   mail_domain: SMTP Domain
-  spam_assassin_reject: SpamAssassin Threshold for rejecting incoming email tickets 
-  spam_assassin_filter: SpamAssassin Threshold for marking incoming tickets spam
-  email_blacklist: Automatically mark tickets from these addresses as spam (separate multiple with commas)
+  spam_assassin_reject: Лимит SpamAssassin для отклонения входящих обращений по email 
+  spam_assassin_filter: Лимит SpamAssassin для отметки входящих обращений как спам
+  email_blacklist: Автоматически помечать обращения с этих адресов как спам (разделяйте адреса запятыми)
   
   # Insights
   activity_report: "Отчет об активности"
