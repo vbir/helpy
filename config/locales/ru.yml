@@ -316,7 +316,9 @@ ru:
   team: "Служба поддержки"
   team_group: "Группы"
   internal_categories: Приватные и внутренние разделы
-  admin_branding: Брэндинг панели управления
+  admin_branding: Цвета панели управления
+  ticketing_branding: Акцентный цвет панели управления
+  ticketing_bg_branding: Цвет фона панели управления
   self_service_site: Настройки сайта
   helpy_functions: Функции системы
   save_settings: "Сохранить настройки"
